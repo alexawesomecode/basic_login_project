@@ -1326,3 +1326,1523 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 169ms (Views: 96.4ms | ActiveRecord: 0.0ms | Allocations: 2113)
 
 
+Started GET "/" for ::1 at 2019-12-12 16:08:51 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.1ms | Allocations: 309)
+Completed 200 OK in 22ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 2107)
+
+
+Started GET "/new" for ::1 at 2019-12-12 16:08:58 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:17:07 -0300
+  [1m[35m (11.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 167.0ms | Allocations: 309)
+Completed 200 OK in 391ms (Views: 298.6ms | ActiveRecord: 0.0ms | Allocations: 1730)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:17:28 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.3ms | Allocations: 185)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 825)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:17:38 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant StaticpagesController):
+  
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:18:01 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1220.9ms | Allocations: 61246)
+Completed 500 Internal Server Error in 1708ms (ActiveRecord: 0.0ms | Allocations: 153636)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007f32b0398a98>:0x00007f32b039f0f0>):
+    16: !DOCTYPE html>
+    17: <html>
+    18:   <head>
+    19:     <title><%= full_title(yield(:title)) %></title>
+    20:     <%= csrf_meta_tags %>
+    21:     <%= stylesheet_link_tag    'application', media: 'all',
+    22:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:19
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:18:36 -0300
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 705)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 8321)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:19:06 -0300
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.8ms | Allocations: 709)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 7473)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:19:40 -0300
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 578)
+Completed 200 OK in 426ms (Views: 424.2ms | ActiveRecord: 0.0ms | Allocations: 53838)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2019-12-12 16:24:01 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 604.9ms | Allocations: 79909)
+Completed 500 Internal Server Error in 613ms (ActiveRecord: 0.0ms | Allocations: 81112)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sessions_new' for #<#<Class:0x00007f32b037dc20>:0x00007f32b0383738>):
+    14:       <%= f.submit "Log in", class: "btn btn-primary" %>
+    15:     <% end %>
+    16: 
+    17:     <p>New user? <%= link_to "Sign up now!", sessions_new %></p>
+    18:   </div>
+    19: </div>
+  
+app/views/sessions/new.html.erb:17
+Started GET "/sessions/new" for 127.0.0.1 at 2019-12-12 16:24:52 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 689)
+Completed 200 OK in 811ms (Views: 808.2ms | ActiveRecord: 0.0ms | Allocations: 58125)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:25:29 -0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for SessionsController):
+  
+actionpack (6.0.1) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:26:47 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"EU8Dv788p9vfQIQSNQYO06/Gf8IHLDO5Eklm9pyL7uyUq8iQGss3hNut6vrYvOqdO9EuqWJoZL4uSDnYrziydA==", "session"=>{"email"=>"fdsfgsfdsfs@dofis.cl", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 460)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 7015)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:26:54 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"i8ixmJly4TvQ2uAUGmzPuWf3pIOxuohG5DLcmSSV2AsOLHq3PIVxZNQ3jvz31iv38+D16NT+30HYM4O3FyaEkw==", "session"=>{"email"=>"fdsfgsfdsfs@dofis.cl", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 451)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 6819)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:28:02 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"i8ixmJly4TvQ2uAUGmzPuWf3pIOxuohG5DLcmSSV2AsOLHq3PIVxZNQ3jvz31iv38+D16NT+30HYM4O3FyaEkw==", "session"=>{"email"=>"fdsfgsfdsfs@dofis.cl", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (23.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "fdsfgsfdsfs@dofis.cl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 460)
+Completed 200 OK in 138ms (Views: 16.9ms | ActiveRecord: 24.4ms | Allocations: 9307)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:28:09 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"1c/qNjDW569hk5dGqbZ/Bu1X9qw8SGD0QvX90VS1aehQKyEZlSF38GV++a5EDJtIeUCnx1kMN/N+9KL/ZwY1cA==", "session"=>{"email"=>"fdsfgsfdsfs@dofis.clFDSDSF", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "fdsfgsfdsfs@dofis.clfdsdsf"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 451)
+Completed 200 OK in 31ms (Views: 24.8ms | ActiveRecord: 0.3ms | Allocations: 7362)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:29:10 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"1c/qNjDW569hk5dGqbZ/Bu1X9qw8SGD0QvX90VS1aehQKyEZlSF38GV++a5EDJtIeUCnx1kMN/N+9KL/ZwY1cA==", "session"=>{"email"=>"fdsfgsfdsfs@dofis.clFDSDSF", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "fdsfgsfdsfs@dofis.clfdsdsf"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 460)
+Completed 200 OK in 58ms (Views: 47.2ms | ActiveRecord: 1.4ms | Allocations: 8801)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:29:16 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0xXt1IuP2pfW7vkTRCblmKrYWe3YBUMkQAZ0Yz+mip9W8Sb7LnhKyNIDl/upnAHWPs8Ihr1BFCN8BytNDBXWBw==", "session"=>{"email"=>"ssdopj@asadsa.cl", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ssdopj@asadsa.cl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 451)
+Completed 200 OK in 28ms (Views: 21.7ms | ActiveRecord: 0.8ms | Allocations: 7386)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 16:30:57 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0xXt1IuP2pfW7vkTRCblmKrYWe3YBUMkQAZ0Yz+mip9W8Sb7LnhKyNIDl/upnAHWPs8Ihr1BFCN8BytNDBXWBw==", "session"=>{"email"=>"ssdopj@asadsa.cl", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ssdopj@asadsa.cl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 690)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.19.1
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 5274ms (ActiveRecord: 0.4ms | Allocations: 11828)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+app/controllers/sessions_controller.rb:12:in `create'
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:33:54 -0300
+  [1m[35m (11.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (19.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 650.6ms | Allocations: 23512)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.19.1
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 2494ms (ActiveRecord: 0.0ms | Allocations: 35666)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:37:41 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 63.7ms | Allocations: 11751)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.19.1
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1799ms (ActiveRecord: 0.0ms | Allocations: 23897)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:39:00 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 58.1ms | Allocations: 11751)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/home/alex/.rbenv/versions/2.6.5/bin/ruby: No such file or directory -- ./bin/webpack (LoadError)
+
+Completed 500 Internal Server Error in 331ms (ActiveRecord: 0.0ms | Allocations: 23892)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:40:15 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 67.8ms | Allocations: 11751)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms | Allocations: 21645)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:42:16 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 154.3ms | Allocations: 11751)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.19.1
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 2064ms (ActiveRecord: 0.0ms | Allocations: 23899)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:50:27 -0300
+  [1m[35m (100.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3468.4ms | Allocations: 69015)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.19.1
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 6949ms (ActiveRecord: 0.0ms | Allocations: 95365)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:52:17 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 67.6ms | Allocations: 11595)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.19.1
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1946ms (ActiveRecord: 0.0ms | Allocations: 24024)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:56:10 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 60.6ms | Allocations: 11595)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+error Command "webpack" not found.
+
+[Webpacker] yarn run v1.19.1
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+Completed 500 Internal Server Error in 1809ms (ActiveRecord: 0.0ms | Allocations: 23152)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 16:57:16 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 61.4ms | Allocations: 11595)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1730ms (ActiveRecord: 0.0ms | Allocations: 23138)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 17:08:10 -0300
+  [1m[35m (11.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1117.1ms | Allocations: 11597)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 3662ms (ActiveRecord: 0.0ms | Allocations: 23141)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /home/alex/projects/microverse/rails/git/basic_login_project/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= stylesheet_link_tag    'application', media: 'all',
+     8:                                               'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12:     <!--[if lt IE 9]>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2019-12-12 17:08:28 -0300
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.6ms | Allocations: 742)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 8353)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2019-12-12 17:08:33 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 473.7ms | Allocations: 2266)
+Completed 200 OK in 491ms (Views: 488.6ms | ActiveRecord: 0.0ms | Allocations: 9544)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:08:42 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"WhDfPNFh5NhqV3rJGvQs25iVqGZWL/L02/OUIZFyBMnf9BQTdJZ0h266FCH3TsiVDIL5DTNrpfPn8ssPosFYUQ==", "session"=>{"email"=>"dasfsa@dad.dsadsada", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (22.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dasfsa@dad.dsadsada"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 452)
+Completed 200 OK in 161ms (Views: 19.6ms | ActiveRecord: 23.3ms | Allocations: 9390)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2019-12-12 17:12:29 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 477)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 7210)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:13:04 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"58BRq2v4pyouIhNVGRGy7fBvntlG+vhc5ctnz1XCoShiJJqEzg83dSrPfb30q1ajZHjPsiO+r1vZyjjhZnH9sA==", "session"=>{"email"=>"adsda@asdasda.cd", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "adsda@asdasda.cd"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 451)
+Completed 200 OK in 76ms (Views: 49.9ms | ActiveRecord: 2.2ms | Allocations: 11318)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:22:32 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"58BRq2v4pyouIhNVGRGy7fBvntlG+vhc5ctnz1XCoShiJJqEzg83dSrPfb30q1ajZHjPsiO+r1vZyjjhZnH9sA==", "session"=>{"email"=>"adsda@asdasda.cd", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "adsda@asdasda.cd"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 692)
+Completed 200 OK in 35ms (Views: 23.1ms | ActiveRecord: 0.5ms | Allocations: 10059)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:23:14 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"58BRq2v4pyouIhNVGRGy7fBvntlG+vhc5ctnz1XCoShiJJqEzg83dSrPfb30q1ajZHjPsiO+r1vZyjjhZnH9sA==", "session"=>{"email"=>"adsda@asdasda.cd", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "adsda@asdasda.cd"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 685)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.2ms | Allocations: 10250)
+
+
+  
+ActionView::Template::Error (Missing partial sessions/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/alex/projects/microverse/rails/git/basic_login_project/app/views"
+  * "/home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actiontext-6.0.1/app/views"
+  * "/home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionmailbox-6.0.1/app/views"
+):
+    15:     <![endif]-->
+    16:   </head>
+    17:   <body>
+    18:     <%= render 'header'%>
+    19:     <div class="container">
+    20:       <%= yield %>
+    21:     </div>
+  
+app/views/layouts/application.html.erb:18
+app/controllers/sessions_controller.rb:14:in `create'
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:23:31 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"58BRq2v4pyouIhNVGRGy7fBvntlG+vhc5ctnz1XCoShiJJqEzg83dSrPfb30q1ajZHjPsiO+r1vZyjjhZnH9sA==", "session"=>{"email"=>"adsda@asdasda.cd", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "adsda@asdasda.cd"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 685)
+  Rendered layouts/_header.html.erb (Duration: 327.5ms | Allocations: 79102)
+Completed 500 Internal Server Error in 365ms (ActiveRecord: 0.3ms | Allocations: 88109)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `help_path' for #<#<Class:0x00007f8ce51c5c40>:0x00007f8ce51c4110>):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home", root_path %></li>
+    7:         <li><%= link_to "Help", help_path %></li>
+    8:         <% if logged_in? %>
+    9:           <li><%= link_to "Users", '#' %></li>
+   10:           <li class="dropdown">
+  
+app/views/layouts/_header.html.erb:7
+app/views/layouts/application.html.erb:18
+app/controllers/sessions_controller.rb:14:in `create'
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:23:52 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"58BRq2v4pyouIhNVGRGy7fBvntlG+vhc5ctnz1XCoShiJJqEzg83dSrPfb30q1ajZHjPsiO+r1vZyjjhZnH9sA==", "session"=>{"email"=>"adsda@asdasda.cd", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "adsda@asdasda.cd"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 685)
+  Rendered layouts/_header.html.erb (Duration: 338.1ms | Allocations: 79103)
+Completed 500 Internal Server Error in 370ms (ActiveRecord: 0.3ms | Allocations: 88109)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sessions' for #<#<Class:0x00007f8ce54290e0>:0x00007f8ce54377a8>):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", root_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  
+app/helpers/sessions_helper.rb:10:in `current_user'
+app/helpers/sessions_helper.rb:16:in `logged_in?'
+app/views/layouts/_header.html.erb:8
+app/views/layouts/application.html.erb:18
+app/controllers/sessions_controller.rb:14:in `create'
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:25:34 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"58BRq2v4pyouIhNVGRGy7fBvntlG+vhc5ctnz1XCoShiJJqEzg83dSrPfb30q1ajZHjPsiO+r1vZyjjhZnH9sA==", "session"=>{"email"=>"adsda@asdasda.cd", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "adsda@asdasda.cd"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 460)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 103)
+Completed 200 OK in 52ms (Views: 18.2ms | ActiveRecord: 1.0ms | Allocations: 9312)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-12 17:25:37 -0300
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.5ms | Allocations: 738)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 129)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 8028)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-12-12 17:25:40 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 463)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 102)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 7247)
+
+
+Started GET "/new" for 127.0.0.1 at 2019-12-12 17:26:27 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2019-12-12 17:26:32 -0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1111)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 103)
+Completed 200 OK in 76ms (Views: 57.4ms | ActiveRecord: 1.1ms | Allocations: 12141)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-12 17:26:40 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"itDLjJ4wad1ZXgwHUXo1R+R68ko6Jz7nWZM9EOWzTyIlUMmfs3+2IpzI8QV7GBhrb7gK7aSgJyfaPXo2pgLi+g==", "user"=>{"email"=>"alex@alex.alex", "username"=>"alex", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "alex@alex.alex"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 638)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 99)
+Completed 200 OK in 44ms (Views: 20.5ms | ActiveRecord: 0.9ms | Allocations: 10957)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-12 17:27:06 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"K4EFd9ImV3+b1hLOovA9/RhG1Xt/80nSm5xMLRX5RnmEAQdk/2mIgF5A78yIkhDRk4Qt3OF0UBIYMgsLVkjroQ==", "user"=>{"email"=>"alex@alex.alex", "username"=>"alejandroandres", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "alex@alex.alex"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 630)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 99)
+Completed 200 OK in 38ms (Views: 23.5ms | ActiveRecord: 1.1ms | Allocations: 10587)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/new" for 127.0.0.1 at 2019-12-12 17:27:46 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2019-12-12 17:27:50 -0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 628)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 99)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 7433)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-12 17:28:06 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"d9f5JJ4xHgAjbEfYlQ1CajOfE4WN+u3O3NozfHahtiXYV/s3s37B/+b6utq/b29GuF3rIhN99A5fdHRaNRAb/Q==", "user"=>{"email"=>"sop@sop.cl", "username"=>"sop", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "sop@sop.cl"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 630)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 99)
+Completed 200 OK in 76ms (Views: 58.4ms | ActiveRecord: 1.1ms | Allocations: 10585)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/users" for 127.0.0.1 at 2019-12-12 17:29:39 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"d9f5JJ4xHgAjbEfYlQ1CajOfE4WN+u3O3NozfHahtiXYV/s3s37B/+b6utq/b29GuF3rIhN99A5fdHRaNRAb/Q==", "user"=>{"email"=>"sop@sop.cl", "username"=>"sop", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "sop@sop.cl"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1458)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 414)
+Completed 200 OK in 136ms (Views: 96.2ms | ActiveRecord: 2.0ms | Allocations: 31796)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-12 17:29:54 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"d9f5JJ4xHgAjbEfYlQ1CajOfE4WN+u3O3NozfHahtiXYV/s3s37B/+b6utq/b29GuF3rIhN99A5fdHRaNRAb/Q==", "user"=>{"email"=>"sop@sop.sop", "username"=>"sopenade", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "sop@sop.sop"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Create (40.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "sopenade"], ["email", "sop@sop.sop"], ["password", "sopenade"], ["created_at", "2019-12-12 20:29:54.572198"], ["updated_at", "2019-12-12 20:29:54.572198"]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[35m (151.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 211ms (ActiveRecord: 193.4ms | Allocations: 3744)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-12 17:29:54 -0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1005)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 389)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 9157)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-12-12 17:30:23 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 975)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 102)
+Completed 200 OK in 56ms (Views: 52.0ms | ActiveRecord: 0.0ms | Allocations: 8335)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:30:30 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pFXFkJTg93suBVnjUPPOETg+e38AT4lU9a/RiNwO5/UhsQ6/MRdnJCroNwu9SSpfrCkqFGUL3lPJro6m7727bQ==", "session"=>{"email"=>"sop@sop.sop", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sop@sop.sop"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.6ms | Allocations: 1500)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<User:0x00005576d21d4428>):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:31:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pFXFkJTg93suBVnjUPPOETg+e38AT4lU9a/RiNwO5/UhsQ6/MRdnJCroNwu9SSpfrCkqFGUL3lPJro6m7727bQ==", "session"=>{"email"=>"sop@sop.sop", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1589)
+
+
+  
+LoadError (cannot load such file -- bcrypt):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:31:46 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pFXFkJTg93suBVnjUPPOETg+e38AT4lU9a/RiNwO5/UhsQ6/MRdnJCroNwu9SSpfrCkqFGUL3lPJro6m7727bQ==", "session"=>{"email"=>"sop@sop.sop", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sop@sop.sop"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.9ms | Allocations: 6809)
+
+
+  
+NoMethodError (undefined method `password_digest' for #<User:0x00007fbc9cab7d80>):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPasswordDigestToUsers (20191212203407)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191212203407"]]
+  [1m[35m (84.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:34:30 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pFXFkJTg93suBVnjUPPOETg+e38AT4lU9a/RiNwO5/UhsQ6/MRdnJCroNwu9SSpfrCkqFGUL3lPJro6m7727bQ==", "session"=>{"email"=>"sop@sop.sop", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sop@sop.sop"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 1.8ms | Allocations: 6652)
+
+
+  
+BCrypt::Errors::InvalidHash (invalid hash):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexToUsersEmail (20191212203522)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191212203522"]]
+  [1m[35m (117.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:35:57 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pFXFkJTg93suBVnjUPPOETg+e38AT4lU9a/RiNwO5/UhsQ6/MRdnJCroNwu9SSpfrCkqFGUL3lPJro6m7727bQ==", "session"=>{"email"=>"sop@sop.sop", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sop@sop.sop"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 2.0ms | Allocations: 6545)
+
+
+  
+BCrypt::Errors::InvalidHash (invalid hash):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:36:01 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pFXFkJTg93suBVnjUPPOETg+e38AT4lU9a/RiNwO5/UhsQ6/MRdnJCroNwu9SSpfrCkqFGUL3lPJro6m7727bQ==", "session"=>{"email"=>"sop@sop.sop", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sop@sop.sop"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.7ms | Allocations: 1197)
+
+
+  
+BCrypt::Errors::InvalidHash (invalid hash):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+Started GET "/login" for 127.0.0.1 at 2019-12-12 17:37:09 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2401)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 410)
+Completed 200 OK in 103ms (Views: 93.3ms | ActiveRecord: 0.0ms | Allocations: 23054)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:37:15 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"KfZ9cPhfbYAufGquOdLlmK/MKGvBR1o2ORww0mt41nmsErZfXaj93yqRBEbUaAHWO9t5AKQDDTEFHW/8WMuK4Q==", "session"=>{"email"=>"sop@sop.sop", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sop@sop.sop"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 2.5ms | Allocations: 7226)
+
+
+  
+BCrypt::Errors::InvalidHash (invalid hash):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+Started GET "/users/new" for 127.0.0.1 at 2019-12-12 17:37:30 -0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1111)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 103)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 8541)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-12 17:37:43 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"yzZiLFeh7xv3CWR6jhIUO+PJWiGzztcO1LNKWH1G5odktmA/eu4w5DKfmXikcDkXaAuihi1Jzs5XHQ1+PvdLXw==", "user"=>{"email"=>"123@123.123", "username"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "123@123.123"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 640)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 99)
+Completed 200 OK in 383ms (Views: 20.0ms | ActiveRecord: 0.7ms | Allocations: 11468)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-12 17:38:41 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"yzZiLFeh7xv3CWR6jhIUO+PJWiGzztcO1LNKWH1G5odktmA/eu4w5DKfmXikcDkXaAuihi1Jzs5XHQ1+PvdLXw==", "user"=>{"email"=>"lupita@gmail.com", "username"=>"lupita", "password"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "lupita@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["username", "lupita"], ["email", "lupita@gmail.com"], ["created_at", "2019-12-12 20:38:42.215350"], ["updated_at", "2019-12-12 20:38:42.215350"], ["password_digest", "$2a$12$oWG84mEQLQMBtIfwPGoLWusO85UctTJxea0BP31QJrpO72zFNhdyS"]]
+  ↳ app/controllers/users_controller.rb:31:in `create'
+  [1m[35m (91.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `create'
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 463ms (ActiveRecord: 92.8ms | Allocations: 3810)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-12 17:38:42 -0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 628)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 99)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 7435)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-12-12 17:38:56 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 465)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 102)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 7265)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-12-12 17:39:02 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"q6FGkQWGVObig70rcL1bw/CQUCDZmu5BmrYcYmm0amguRY2+oHHEueZu08OdB7+NZIcBS7zeuUamt0NMWgc28A==", "session"=>{"email"=>"lupita@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lupita@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 354ms (ActiveRecord: 0.4ms | Allocations: 1026)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2019-12-12 17:39:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/4"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/4" for 127.0.0.1 at 2019-12-12 17:40:40 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 406 Not Acceptable in 7ms (ActiveRecord: 0.0ms | Allocations: 1974)
+
+
+  
+ActionController::MissingExactTemplate (UsersController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:196:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.1) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/4" for 127.0.0.1 at 2019-12-12 17:42:01 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:11:in `current_user'
+Completed 406 Not Acceptable in 29ms (ActiveRecord: 2.4ms | Allocations: 8013)
+
+
+  
+ActionController::MissingExactTemplate (UsersController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:196:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.1) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/4" for 127.0.0.1 at 2019-12-12 17:42:05 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:11:in `current_user'
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.3ms | Allocations: 1166)
+
+
+  
+ActionController::MissingExactTemplate (UsersController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:196:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.1) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/4" for 127.0.0.1 at 2019-12-12 17:42:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:11:in `current_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 90)
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 544)
+Completed 200 OK in 56ms (Views: 50.5ms | ActiveRecord: 0.3ms | Allocations: 8904)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2019-12-12 17:42:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:11:in `current_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 87)
+  Rendered layouts/_header.html.erb (Duration: 3.5ms | Allocations: 486)
+Completed 200 OK in 33ms (Views: 24.7ms | ActiveRecord: 0.4ms | Allocations: 8843)
+
+
