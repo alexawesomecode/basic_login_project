@@ -13,7 +13,8 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 if  @user.update(user_params)
 
-reder :new
+render :new
+
 else
 
     flash[:notice] = "Post NOT successfully created"
