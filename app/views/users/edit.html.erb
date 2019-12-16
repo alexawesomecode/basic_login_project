@@ -1,34 +1,28 @@
-<h1>We are on Edit Page</h1>
+<h1>Update your profile</h1>
 
-<!--<form action="/users" method="post" name="users" accept-charset="UTF-8">
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
 
-  <label name="email"> Email: </label>
-  <input type="email" name="user[email]">
+      <%= f.label :username %>
+      <%= f.text_field :username, class: 'form-control' %>
 
-  <label name="username"> Username: </label>
-  <input type="text" name="user[username]">
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
 
-  <label name="password"> Password: </label>
-  <input type="password" name="user[password]">
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
 
-  <input type="submit" value="Submit">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-</form>-->
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation, class: 'form-control' %>
 
+      <%= f.submit "Save changes", class: "btn btn-primary" %>
+    <% end %>
 
-<!--<%= form_tag("/users", method: "post") do %>
-  <%= label_tag(:email, "Email:") %>
-  <%= email_field_tag(:email) %>
-  <%= label_tag(:username, "Username:") %>
-  <%= text_field_tag(:username) %>
-  <%= label_tag(:password, "Password:") %>
-  <%= password_field_tag(:password) %>
-  <%= submit_tag("Submit") %>
-<% end %>-->
-
-<%= form_for @user do |u| %>
-  Email: <%= u.email_field :email, placeholder: "example@example.com"%>
-  Username: <%= u.text_field :username, value: "New user" %>
-  Password: <%= u.password_field :password %>
-  <%= u.submit "Submit" %>
-<% end %>
+    <div class="gravatar_edit">
+      
+      <a href="http://gravatar.com/emails" target="_blank" rel='noopener'>change</a>
+    </div>
+  </div>
+</div>

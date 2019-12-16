@@ -496,3 +496,217 @@ Processing by StaticPagesController#home as HTML
   Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 139)
 Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1432)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.4ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', 'MyString', '2019-12-16 20:27:41.449252', '2019-12-16 20:27:41.449252');
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', 'MyString', '2019-12-16 20:27:41.449252', '2019-12-16 20:27:41.449252')[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.9ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', 'MyString', '2019-12-16 20:27:41.456857', '2019-12-16 20:27:41.456857');
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', 'MyString', '2019-12-16 20:27:41.456857', '2019-12-16 20:27:41.456857')[0m
+  [1m[35m (85.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (98.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------
+UsersLoginTest: test_login_with_invalid_information
+---------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------
+UsersLoginTest: test_login_with_valid_information_followed_by_logout
+--------------------------------------------------------------------
+Started GET "/login" for 127.0.0.1 at 2019-12-16 17:27:41 -0300
+Processing by SessionsController#new as HTML
+Started GET "/login" for 127.0.0.1 at 2019-12-16 17:27:41 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.0ms | Allocations: 3137)
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3965)
+  Rendered layouts/_header.html.erb (Duration: 6.5ms | Allocations: 471)
+Completed 200 OK in 1752ms (Views: 1739.8ms | ActiveRecord: 0.0ms | Allocations: 134074)
+Started POST "/login" for 127.0.0.1 at 2019-12-16 17:27:43 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 131)
+Completed 200 OK in 1747ms (Views: 1745.2ms | ActiveRecord: 0.0ms | Allocations: 135285)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 506)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+SessionsControllerTest: test_should_get_new
+-------------------------------------------
+Started GET "/sessions/new" for 127.0.0.1 at 2019-12-16 17:27:43 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 505)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 133)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 4160)
+Started GET "/" for 127.0.0.1 at 2019-12-16 17:27:43 -0300
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 130)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 2535)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+StaticPagesControllerTest: test_should_get_new
+----------------------------------------------
+Processing by StaticPagesController#home as HTML
+Started GET "/static_pages/new" for 127.0.0.1 at 2019-12-16 17:27:43 -0300
+Processing by StaticPagesController#new as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/new.html.erb within layouts/application
+  Rendered static_pages/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 349)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 155)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 3274)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 142)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 3456)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+UsersEditTest: test_unsuccessful_edit
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-12-16 17:27:43 -0300
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 586)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------------
+UserTest: test_authenticated?_should_return_false_for_a_user_with_nil_digest
+----------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 139)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 6749)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.4ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', 'MyString', '2019-12-16 20:28:40.829944', '2019-12-16 20:28:40.829944');
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', 'MyString', '2019-12-16 20:28:40.829944', '2019-12-16 20:28:40.829944')[0m
+  [1m[35m (75.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', 'MyString', '2019-12-16 20:28:40.819316', '2019-12-16 20:28:40.819316');
+INSERT INTO "users" ("id", "username", "email", "password", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', 'MyString', '2019-12-16 20:28:40.819316', '2019-12-16 20:28:40.819316')[0m
+  [1m[35m (84.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------------
+UserTest: test_authenticated?_should_return_false_for_a_user_with_nil_digest
+----------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-12-16 17:28:41 -0300
+Processing by StaticPagesController#home as HTML
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+StaticPagesControllerTest: test_should_get_new
+----------------------------------------------
+  Rendering static_pages/home.html.erb within layouts/application
+Started GET "/static_pages/new" for 127.0.0.1 at 2019-12-16 17:28:41 -0300
+Processing by StaticPagesController#new as HTML
+  Rendering static_pages/new.html.erb within layouts/application
+  Rendered static_pages/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 112)
+  Rendered layouts/_header.html.erb (Duration: 5.3ms | Allocations: 565)
+Completed 200 OK in 699ms (Views: 697.9ms | ActiveRecord: 0.0ms | Allocations: 47496)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------
+UsersLoginTest: test_login_with_valid_information_followed_by_logout
+--------------------------------------------------------------------
+Started GET "/login" for 127.0.0.1 at 2019-12-16 17:28:41 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2521)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 132)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 4270)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------
+UsersLoginTest: test_login_with_invalid_information
+---------------------------------------------------
+Started GET "/login" for 127.0.0.1 at 2019-12-16 17:28:41 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 508)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 129)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 1613)
+Started POST "/login" for 127.0.0.1 at 2019-12-16 17:28:41 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 505)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 129)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.4ms | Allocations: 2660)
+Started GET "/" for 127.0.0.1 at 2019-12-16 17:28:41 -0300
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 320)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 154)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 1556)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+UsersEditTest: test_unsuccessful_edit
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+SessionsControllerTest: test_should_get_new
+-------------------------------------------
+Started GET "/sessions/new" for 127.0.0.1 at 2019-12-16 17:28:41 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 508)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 129)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2788)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 811.1ms | Allocations: 73518)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 139)
+Completed 200 OK in 842ms (Views: 826.2ms | ActiveRecord: 0.0ms | Allocations: 76586)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
