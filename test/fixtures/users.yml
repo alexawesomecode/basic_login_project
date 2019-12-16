@@ -4,19 +4,34 @@ one:
   username: MyString
   email: MyString
   password: MyString
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 
 two:
   username: MyString
   email: MyString
   password: MyString
+  activated: true
+  activated_at: <%= Time.zone.now %>
 
-  michael:
+michael:
   username: Michael Example
   email: michael@example.com
   password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
 
 archer:
   username: Sterling Archer
   email: duchess@example.gov
   password_digest: <%= User.digest('password') %>
 
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+<% end %>
